@@ -94,9 +94,9 @@ nav img{
         top: 170%;
     }
     .hero-btn{
-        left: 20%;
+        left: 34%;
         top: 400%;
-        position: relative;
+        position: absolute;
     }
 }
 nav .fa{
@@ -299,13 +299,13 @@ opacity: 1;
 }
 .cta{
     margin: 100px;
-    width: 85%;
+    width: 70%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/s14.jpg);
-    background-position: center;
+    background-position: 10px;
     background-size: 100% 100%;
     border-radius: 10px;
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 100px;
 }
 .cta h1{
     color: #fff;
@@ -314,6 +314,7 @@ opacity: 1;
 }
 .hero-btn3{
     display: inline-block;
+    bottom: -40px;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
@@ -334,7 +335,24 @@ opacity: 1;
     }
     .cta{
         margin: 50px;
-        width: 85%;
+        width: 55%;
+    }
+    .hero-btn3{
+        display: inline-block;
+        bottom: -40px;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    .hero-btn3:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 1s;
     }
 }
 .footer{
@@ -412,26 +430,39 @@ input{
 @media(max-width: 700px){
     .container{
         position: absolute;
-        bottom: 77%;
+        bottom: 86.5%;
         right: 100%;
+        margin: 10px;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        padding: 1px 15px;
+        
+    
     }
     input{
         outline: none;
         box-sizing: border-box;
-        height: 110px;
-        width: -50px;
-        padding: 0px 30px;
+        height: 27px;
+        width: 125px;
+        padding: 5px 35px;
         color: black;
         border-radius: 50px;
-        font-size: 20px;
+        font-size: 15px;
         border: 1px solid grey;
         transition: all .7s ease; 
         background-color: transparent;
+        left: -70px;
+        position: relative;
+    }
+    ::placeholder{
+        color: grey;
+        width: 350px;
+        padding: 0px 0px;
     }
     .btn{
         position: absolute;
-        right: -40px;
-        top: 0px;
+        right: 43px;
+        top: -20px;
         width: 50px;
         height: 50px;
         background: transparent;
@@ -439,17 +470,17 @@ input{
         border-radius: 50%;
         text-align: center;
         cursor: pointer;
-        transition: .5s; 
+        transition: .5s;
     }
     .btn i{
-        font-size: 40px;
+        font-size: 20px;
         color: white;
         line-height: 70px;
         transition: all 1s ease;
     }
     .container:hover input{
         background: lightblue;
-        width: 30px;
+        width: 200px;
     }
     .container:hover i{
         transform: rotate(360deg);
