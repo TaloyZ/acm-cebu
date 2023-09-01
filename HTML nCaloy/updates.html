@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/s1.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archdiocesan Campus Ministry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="images/s1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="campus.html">CAMPUS</a></li>
+                <li><a href="updates.html">UPDATES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Updates</h1>
+    </section>
+    <!------ Updates Content ------>
+    <section class="updates-content">
+        <div class="row">
+            <div class="update-left">
+                <img src="images/s19.jpg">
+                <h1>Upcoming Activities</h1>
+                <h4>Pakighimamat - 2023</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, possimus nobis nemo praesentium ut cum quae ea minima magnam numquam dolorum debitis alias repellat ducimus, officiis mollitia odio! Illum ex ipsum in placeat natus ducimus deleniti eligendi iusto alias quasi! Exercitationem asperiores sapiente expedita quaerat beatae blanditiis doloribus nobis temporibus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque aperiam praesentium, eum aliquid dicta, fuga in non provident id animi magni aliquam necessitatibus? Sed ea non numquam consectetur ut, animi architecto dolorem. Sequi, laborum qui? Architecto eum cumque, nulla illum asperiores debitis libero provident eius ab commodi autem soluta.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsum accusantium repellendus illum ab placeat accusamus expedita, quod veniam culpa, doloremque sequi natus aliquam distinctio dolore voluptate. Commodi et eveniet laborum quidem eum debitis, ex nobis excepturi saepe! Vero quis quod sequi odit fugit natus, voluptate pariatur in commodi voluptas.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor aspernatur, accusamus pariatur laudantium amet vero expedita dolorem aliquid ut voluptas ex unde error dicta placeat consequatur libero aperiam perspiciatis necessitatibus esse voluptates eaque nobis. Voluptates corporis ducimus adipisci doloremque commodi illo deserunt! Repudiandae soluta ex sit obcaecati iusto dicta.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn5 red-btn1">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="updates-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Registration</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Physical</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Technical</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Animation</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Liturgy</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>Food</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Program</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Social Comm</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>IGP</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Tolle Lege</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Transportation</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Safety & Security</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>Emcee</span>
+                    <span>2</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ footer ------>
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>The Archdiocesan Campus Ministry is the umbrella and pastoral office of the Catholic Church responsible for providing spiritual guidance,<br> support, and outreach to students and faculty within colleges and universities affiliated with the archdiocese.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>&copy; 2023 Archdiocese of Cebu. All rights reserved.</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html>
