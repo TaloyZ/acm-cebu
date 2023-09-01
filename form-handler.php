@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $concern = $_POST['concern'];
 $message = $_POST['message'];
 
-$email_from = 'info@yourwebsite.com';
+$email_from = 'info@taloyz.github.io/acm-cebu/index.html';
 
 $email_concern = 'New Form Submission';
 
