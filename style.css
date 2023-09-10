@@ -98,6 +98,9 @@ nav img{
         top: 400%;
         position: absolute;
     }
+    nav img{
+        width: 120px;
+    }
 }
 nav .fa{
     display: none;
